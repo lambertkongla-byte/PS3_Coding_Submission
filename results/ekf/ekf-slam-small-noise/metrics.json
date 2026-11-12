@@ -1,0 +1,98 @@
+{
+  "control_count": 847,
+  "pose_count_including_initial": 848,
+  "observation_count": 1473,
+  "landmark_initializations": 24,
+  "known_landmark_updates": 1449,
+  "landmarks_estimated": 24,
+  "first_time": 0.0,
+  "last_time": 847.0,
+  "initialization_source": "X0 (ground truth is never used for inference)",
+  "initial_pose": [
+    -4.0,
+    -4.0,
+    1.5707963267948966
+  ],
+  "initial_pose_covariance": [
+    [
+      0.01,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.01,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      7.615435494667714e-05
+    ]
+  ],
+  "process_covariance_R": [
+    [
+      0.001,
+      0.0
+    ],
+    [
+      0.0,
+      3.490374934835559e-05
+    ]
+  ],
+  "measurement_covariance_Q": [
+    [
+      1e-05,
+      0.0
+    ],
+    [
+      0.0,
+      1e-05
+    ]
+  ],
+  "runtime_seconds": 0.2007694450001054,
+  "final_state_dimension": 51,
+  "covariance_min_eigenvalue_final": 1.3900346438006697e-07,
+  "covariance_min_eigenvalue_over_recorded_posteriors": 1.383375752906228e-07,
+  "covariance_max_symmetry_error": 0.0,
+  "all_states_finite": true,
+  "metric_convention": "Euclidean position RMSE over all timestamp-matched poses, including initial pose; heading errors wrapped to [-pi,pi). Map errors use matching IDs in the anchored world frame, with no post-hoc alignment.",
+  "slam": {
+    "position_rmse_m": 0.0666962242312472,
+    "position_mean_error_m": 0.058317265708318286,
+    "position_max_error_m": 0.2077596264706033,
+    "final_position_error_m": 0.012925943005117055,
+    "heading_rmse_rad": 0.011194484934026,
+    "heading_rmse_deg": 0.6413967405424756,
+    "final_heading_error_rad": 0.009070869507869617,
+    "final_heading_error_deg": 0.5197225393148391,
+    "final_pose": [
+      -3.9928912102246796,
+      -4.010795606073855,
+      1.579867196302767
+    ]
+  },
+  "dead_reckoning": {
+    "position_rmse_m": 0.6457631817903197,
+    "position_mean_error_m": 0.5758776510838107,
+    "position_max_error_m": 1.2849780323781423,
+    "final_position_error_m": 0.825334624004583,
+    "heading_rmse_rad": 0.09286752601226014,
+    "heading_rmse_deg": 5.320917294323895,
+    "final_heading_error_rad": 0.10102360477102934,
+    "final_heading_error_deg": 5.788226184577669,
+    "final_pose": [
+      -3.2372079534819136,
+      -4.3151595395185325,
+      1.6718199315659268
+    ]
+  },
+  "map": {
+    "matched_landmarks": 24,
+    "ground_truth_landmarks": 24,
+    "position_rmse_m": 0.05953921522211668,
+    "position_max_error_m": 0.10606255864143095
+  },
+  "mean_normalized_innovation_squared": 2.071048250747956,
+  "dataset": "ekf-slam-small-noise"
+}

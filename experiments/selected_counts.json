@@ -1,0 +1,10 @@
+{
+  "simple_world_path1": 1000,
+  "simple_world_path3": 1000,
+  "loops_world_path0": 1000,
+  "loops_world_path1": 1000,
+  "rooms_world_path1": 1000,
+  "simple_world_path2": 5000,
+  "loops_world_path2": 2000,
+  "rooms_world_path2": 2000
+}

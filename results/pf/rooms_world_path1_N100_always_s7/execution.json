@@ -1,0 +1,35 @@
+{
+  "spec": {
+    "run_id": "rooms_world_path1_N100_always_s7",
+    "dataset": "rooms_world_path1",
+    "particles": 100,
+    "seed": 7,
+    "resampling": "always",
+    "sparsity": 5,
+    "initialization": "auto",
+    "purpose": "2d"
+  },
+  "command": [
+    "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+    "/workspace/scratch/5dc9fa560133/PS3_Coding_Submission/code/pf/RunPF.py",
+    "/workspace/scratch/5dc9fa560133/PS3_Coding_Submission/data/pf/rooms_world_path1.pickle",
+    "--numParticles",
+    "100",
+    "--sparsity",
+    "5",
+    "--seed",
+    "7",
+    "--resampling",
+    "always",
+    "--neff-threshold",
+    "0.6666666666666666",
+    "--init",
+    "auto",
+    "--output-dir",
+    "/workspace/scratch/5dc9fa560133/PS3_Coding_Submission/results/pf/rooms_world_path1_N100_always_s7"
+  ],
+  "returncode": 0,
+  "wall_seconds": 1.6201863870001034,
+  "source_sha256": "12abbfbf410f5f9b1374d4346f68bb3e212950b1e2b4c4447a65ac3aff575cc2",
+  "output_dir": "results/pf/rooms_world_path1_N100_always_s7"
+}

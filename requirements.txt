@@ -1,0 +1,4 @@
+# Core dependencies only. Tested versions are recorded in VALIDATION.md.
+numpy>=1.24,<3
+scipy>=1.10,<2
+matplotlib>=3.7,<4

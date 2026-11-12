@@ -1,0 +1,58 @@
+[
+  {
+    "run_id": "simple_world_path3_N10000_never_s7",
+    "dataset": "simple_world_path3",
+    "particles": 10000,
+    "resampling": "never",
+    "seed": 7,
+    "purpose": "2f increased-N test"
+  },
+  {
+    "run_id": "loops_world_path0_N10000_never_s7",
+    "dataset": "loops_world_path0",
+    "particles": 10000,
+    "resampling": "never",
+    "seed": 7,
+    "purpose": "2f increased-N test"
+  },
+  {
+    "run_id": "loops_world_path1_N10000_never_s7",
+    "dataset": "loops_world_path1",
+    "particles": 10000,
+    "resampling": "never",
+    "seed": 7,
+    "purpose": "2f increased-N test"
+  },
+  {
+    "run_id": "rooms_world_path1_N10000_never_s7",
+    "dataset": "rooms_world_path1",
+    "particles": 10000,
+    "resampling": "never",
+    "seed": 7,
+    "purpose": "2f increased-N test"
+  },
+  {
+    "run_id": "simple_world_path2_N20000_never_s7",
+    "dataset": "simple_world_path2",
+    "particles": 20000,
+    "resampling": "never",
+    "seed": 7,
+    "purpose": "2f increased-N test"
+  },
+  {
+    "run_id": "loops_world_path2_N20000_never_s7",
+    "dataset": "loops_world_path2",
+    "particles": 20000,
+    "resampling": "never",
+    "seed": 7,
+    "purpose": "2f increased-N test"
+  },
+  {
+    "run_id": "rooms_world_path2_N20000_never_s7",
+    "dataset": "rooms_world_path2",
+    "particles": 20000,
+    "resampling": "never",
+    "seed": 7,
+    "purpose": "2f increased-N test"
+  }
+]

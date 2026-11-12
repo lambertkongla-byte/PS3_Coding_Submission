@@ -1,0 +1,67 @@
+{
+  "collision_fallbacks": 2274724,
+  "collision_rejections": 24393906,
+  "final_heading_error_rad": 0.4121861420973971,
+  "final_mean": [
+    2.0041791753574585,
+    7.849387827143967,
+    2.1794207853014314
+  ],
+  "final_neff_before_resampling": 1.0,
+  "final_particles_recorded": "after final resampling if performed",
+  "final_position_error": 0.757274765380306,
+  "final_position_spread_rms": 0.0,
+  "final_scan_best_particle_log_likelihood": -2.2211420828141235,
+  "final_scan_mean_pose_log_likelihood": -6.764317798453343,
+  "final_weighted_xy_covariance": [
+    [
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0
+    ]
+  ],
+  "gaussian_xy_sigma": 0.5,
+  "ground_truth_alignment": "estimate[:,k+1] versus XGT[:,k+1] for input column k",
+  "ground_truth_available": true,
+  "heading_rmse_rad": 0.2748049750802994,
+  "impossible_scans_skipped": 0,
+  "inference_seconds": 17.53733890600006,
+  "initial_heading_distribution": "uniform[-pi,pi)",
+  "initialization": "gaussian",
+  "laser_parameters": {
+    "lambdaShort": 1.0,
+    "pHit": 0.97,
+    "pMax": 0.01,
+    "pRand": 0.01,
+    "pShort": 0.01,
+    "sigmaHit": 0.5,
+    "zMax": 20.0,
+    "zMaxEps": 0.1
+  },
+  "mean_neff": 1.2766285583913142,
+  "means_recorded": "weighted posterior before resampling",
+  "minimum_neff": 1.0,
+  "motion_alpha": [
+    0.1,
+    0.1,
+    0.1,
+    0.1,
+    0.1,
+    0.1
+  ],
+  "neff_threshold_fraction": 0.6666666666666666,
+  "num_beams": 9,
+  "num_particles": 10000,
+  "num_steps": 517,
+  "position_rmse": 0.3497445553105081,
+  "resampling": "never",
+  "resampling_count": 0,
+  "seed": 7,
+  "sparsity": 5,
+  "tail20_heading_rmse_rad": 0.29384606871777996,
+  "tail20_position_rmse": 0.47319989556374653,
+  "total_seconds": 17.747349386999986
+}

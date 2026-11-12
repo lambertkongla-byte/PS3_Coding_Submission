@@ -1,0 +1,33 @@
+{
+  "spec": {
+    "run_id": "simple_world_path2_N5000_adaptive_s7",
+    "dataset": "simple_world_path2",
+    "particles": 5000,
+    "resampling": "adaptive",
+    "seed": 7,
+    "purpose": "2f baseline"
+  },
+  "command": [
+    "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+    "/workspace/scratch/5dc9fa560133/PS3_Coding_Submission/code/pf/RunPF.py",
+    "/workspace/scratch/5dc9fa560133/PS3_Coding_Submission/data/pf/simple_world_path2.pickle",
+    "--numParticles",
+    "5000",
+    "--sparsity",
+    "5",
+    "--seed",
+    "7",
+    "--resampling",
+    "adaptive",
+    "--neff-threshold",
+    "0.6666666666666666",
+    "--init",
+    "auto",
+    "--output-dir",
+    "/workspace/scratch/5dc9fa560133/PS3_Coding_Submission/results/pf/simple_world_path2_N5000_adaptive_s7"
+  ],
+  "returncode": 0,
+  "wall_seconds": 2.438281533999998,
+  "source_sha256": "12abbfbf410f5f9b1374d4346f68bb3e212950b1e2b4c4447a65ac3aff575cc2",
+  "output_dir": "results/pf/simple_world_path2_N5000_adaptive_s7"
+}

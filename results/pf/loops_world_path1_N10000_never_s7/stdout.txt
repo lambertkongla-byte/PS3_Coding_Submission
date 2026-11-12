@@ -1,0 +1,74 @@
+{
+  "outputs": {
+    "png": "/workspace/scratch/5dc9fa560133/PS3_Coding_Submission/results/pf/loops_world_path1_N10000_never_s7/loops_world_path1_N10000_never_s5_seed7_gaussian.png",
+    "npz": "/workspace/scratch/5dc9fa560133/PS3_Coding_Submission/results/pf/loops_world_path1_N10000_never_s7/loops_world_path1_N10000_never_s5_seed7_gaussian.npz",
+    "json": "/workspace/scratch/5dc9fa560133/PS3_Coding_Submission/results/pf/loops_world_path1_N10000_never_s7/loops_world_path1_N10000_never_s5_seed7_gaussian.json"
+  },
+  "metrics": {
+    "num_particles": 10000,
+    "num_steps": 790,
+    "num_beams": 9,
+    "seed": 7,
+    "resampling": "never",
+    "neff_threshold_fraction": 0.6666666666666666,
+    "initialization": "gaussian",
+    "gaussian_xy_sigma": 0.5,
+    "initial_heading_distribution": "uniform[-pi,pi)",
+    "sparsity": 5,
+    "laser_parameters": {
+      "pHit": 0.97,
+      "pShort": 0.01,
+      "pMax": 0.01,
+      "pRand": 0.01,
+      "sigmaHit": 0.5,
+      "lambdaShort": 1.0,
+      "zMax": 20.0,
+      "zMaxEps": 0.1
+    },
+    "motion_alpha": [
+      0.1,
+      0.1,
+      0.1,
+      0.1,
+      0.1,
+      0.1
+    ],
+    "inference_seconds": 35.40883780399986,
+    "resampling_count": 0,
+    "mean_neff": 1.3874645412367936,
+    "minimum_neff": 1.0,
+    "final_neff_before_resampling": 1.0,
+    "impossible_scans_skipped": 0,
+    "collision_rejections": 38229412,
+    "collision_fallbacks": 3651995,
+    "final_position_spread_rms": 2.0609268866862532e-20,
+    "final_weighted_xy_covariance": [
+      [
+        7.221652459823367e-43,
+        -1.7498924587244627e-41
+      ],
+      [
+        -1.7498924587244627e-41,
+        4.240197979806469e-40
+      ]
+    ],
+    "final_mean": [
+      1.0042877919596394,
+      11.94591625601876,
+      -2.0711394984676366
+    ],
+    "final_scan_mean_pose_log_likelihood": -46.91833583180976,
+    "final_scan_best_particle_log_likelihood": -2.750453111623348,
+    "ground_truth_available": true,
+    "ground_truth_alignment": "estimate[:,k+1] versus XGT[:,k+1] for input column k",
+    "means_recorded": "weighted posterior before resampling",
+    "final_particles_recorded": "after final resampling if performed",
+    "position_rmse": 1.2322975136555216,
+    "final_position_error": 3.8798514983948027,
+    "tail20_position_rmse": 2.227297001478483,
+    "heading_rmse_rad": 0.43340015080762545,
+    "final_heading_error_rad": 0.5545619984040253,
+    "tail20_heading_rmse_rad": 0.7936857856059174,
+    "total_seconds": 35.69257575300003
+  }
+}

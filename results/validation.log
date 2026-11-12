@@ -1,0 +1,47 @@
+test_ground_truth_does_not_change_filter_inference (test_ekf_slam.EKFSLAMTests.test_ground_truth_does_not_change_filter_inference) ... ok
+test_inverse_initialization_and_forward_measurement_round_trip (test_ekf_slam.EKFSLAMTests.test_inverse_initialization_and_forward_measurement_round_trip) ... ok
+test_known_landmark_update_matches_numerical_measurement_jacobian (test_ekf_slam.EKFSLAMTests.test_known_landmark_update_matches_numerical_measurement_jacobian) ... ok
+test_landmark_augmentation_preserves_full_existing_cross_covariances (test_ekf_slam.EKFSLAMTests.test_landmark_augmentation_preserves_full_existing_cross_covariances) ... ok
+test_prediction_matches_independent_model_and_numerical_jacobians (test_ekf_slam.EKFSLAMTests.test_prediction_matches_independent_model_and_numerical_jacobians) ... ok
+test_prediction_uses_old_heading_for_translation_and_wraps_new_heading (test_ekf_slam.EKFSLAMTests.test_prediction_uses_old_heading_for_translation_and_wraps_new_heading) ... ok
+test_process_covariance_includes_correlated_distance_and_heading_noise (test_ekf_slam.EKFSLAMTests.test_process_covariance_includes_correlated_distance_and_heading_noise) ... ok
+test_run_does_not_reuse_the_first_measurement_after_augmentation (test_ekf_slam.EKFSLAMTests.test_run_does_not_reuse_the_first_measurement_after_augmentation) ... ok
+test_run_predicts_before_observations_at_control_time (test_ekf_slam.EKFSLAMTests.test_run_predicts_before_observations_at_control_time) ... ok
+test_run_processes_observations_at_initial_time (test_ekf_slam.EKFSLAMTests.test_run_processes_observations_at_initial_time) ... ok
+test_zero_innovation_changes_covariance_but_not_mean (test_ekf_slam.EKFSLAMTests.test_zero_innovation_changes_covariance_but_not_mean) ... ok
+test_anisotropic_map_resolution_uses_physical_distance (test_laser.LaserTests.test_anisotropic_map_resolution_uses_physical_distance) ... ok
+test_cardinal_rays_return_exact_cell_boundaries (test_laser.LaserTests.test_cardinal_rays_return_exact_cell_boundaries) ... ok
+test_default_mixture_matches_independent_scalar_calculation (test_laser.LaserTests.test_default_mixture_matches_independent_scalar_calculation) ... ok
+test_finite_out_of_support_ranges_have_zero_likelihood (test_laser.LaserTests.test_finite_out_of_support_ranges_have_zero_likelihood) ... ok
+test_hit_is_normalized_when_expected_range_is_close_to_zero (test_laser.LaserTests.test_hit_is_normalized_when_expected_range_is_close_to_zero) ... ok
+test_log_likelihood_survives_long_scan_underflow (test_laser.LaserTests.test_log_likelihood_survives_long_scan_underflow) ... ok
+test_max_component_is_saturation_mass (test_laser.LaserTests.test_max_component_is_saturation_mass) ... ok
+test_multiple_beams_multiply_and_vectorized_particles_match (test_laser.LaserTests.test_multiple_beams_multiply_and_vectorized_particles_match) ... ok
+test_random_component_support_and_density (test_laser.LaserTests.test_random_component_support_and_density) ... ok
+test_rays_respect_robot_heading (test_laser.LaserTests.test_rays_respect_robot_heading) ... ok
+test_short_component_has_truncated_exponential_density (test_laser.LaserTests.test_short_component_has_truncated_exponential_density) ... ok
+test_deterministic_collision_falls_back_to_previous_pose (test_particle_filter.ParticleFilterTests.test_deterministic_collision_falls_back_to_previous_pose) ... ok
+test_effective_sample_size_matches_definition (test_particle_filter.ParticleFilterTests.test_effective_sample_size_matches_definition) ... ok
+test_heading_wraps_without_changing_direction (test_particle_filter.ParticleFilterTests.test_heading_wraps_without_changing_direction) ... ok
+test_log_update_retains_relative_weights_after_probability_underflow (test_particle_filter.ParticleFilterTests.test_log_update_retains_relative_weights_after_probability_underflow) ... ok
+test_motion_noise_uses_variances_not_standard_deviations (test_particle_filter.ParticleFilterTests.test_motion_noise_uses_variances_not_standard_deviations) ... ok
+test_near_zero_turn_has_continuous_straight_limit (test_particle_filter.ParticleFilterTests.test_near_zero_turn_has_continuous_straight_limit) ... ok
+test_orientation_mean_is_circular (test_particle_filter.ParticleFilterTests.test_orientation_mean_is_circular) ... ok
+test_prediction_preserves_importance_weights (test_particle_filter.ParticleFilterTests.test_prediction_preserves_importance_weights) ... ok
+test_quarter_circle_motion (test_particle_filter.ParticleFilterTests.test_quarter_circle_motion) ... ok
+test_resampling_copies_only_positive_weight_support_and_resets_weights (test_particle_filter.ParticleFilterTests.test_resampling_copies_only_positive_weight_support_and_resets_weights) ... ok
+test_straight_motion_zero_angular_velocity (test_particle_filter.ParticleFilterTests.test_straight_motion_zero_angular_velocity) ... ok
+test_updates_multiply_previous_weights_when_not_resampling (test_particle_filter.ParticleFilterTests.test_updates_multiply_previous_weights_when_not_resampling) ... ok
+
+----------------------------------------------------------------------
+Ran 34 tests in 0.028s
+
+OK
+{
+  "validated_pf_runs": 48,
+  "requested_manifest_runs": 48,
+  "datasets": 8,
+  "output": "/workspace/scratch/5dc9fa560133/PS3_Coding_Submission/results/pf_summary.csv",
+  "source_sha256": "12abbfbf410f5f9b1374d4346f68bb3e212950b1e2b4c4447a65ac3aff575cc2",
+  "validation": "passed"
+}

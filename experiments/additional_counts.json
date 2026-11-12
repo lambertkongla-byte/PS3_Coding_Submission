@@ -1,0 +1,10 @@
+[
+  {
+    "run_id": "loops_world_path1_N1_always_s7",
+    "dataset": "loops_world_path1",
+    "particles": 1,
+    "resampling": "always",
+    "seed": 7,
+    "purpose": "2d low-particle failure"
+  }
+]

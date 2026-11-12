@@ -1,0 +1,35 @@
+{
+  "spec": {
+    "run_id": "loops_world_path0_N1000_always_s7",
+    "dataset": "loops_world_path0",
+    "particles": 1000,
+    "seed": 7,
+    "resampling": "always",
+    "sparsity": 5,
+    "initialization": "auto",
+    "purpose": "2d"
+  },
+  "command": [
+    "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+    "/workspace/scratch/5dc9fa560133/PS3_Coding_Submission/code/pf/RunPF.py",
+    "/workspace/scratch/5dc9fa560133/PS3_Coding_Submission/data/pf/loops_world_path0.pickle",
+    "--numParticles",
+    "1000",
+    "--sparsity",
+    "5",
+    "--seed",
+    "7",
+    "--resampling",
+    "always",
+    "--neff-threshold",
+    "0.6666666666666666",
+    "--init",
+    "auto",
+    "--output-dir",
+    "/workspace/scratch/5dc9fa560133/PS3_Coding_Submission/results/pf/loops_world_path0_N1000_always_s7"
+  ],
+  "returncode": 0,
+  "wall_seconds": 1.919136182000102,
+  "source_sha256": "12abbfbf410f5f9b1374d4346f68bb3e212950b1e2b4c4447a65ac3aff575cc2",
+  "output_dir": "results/pf/loops_world_path0_N1000_always_s7"
+}
