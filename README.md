@@ -2,7 +2,7 @@
 
 This package covers **Question 2(a–f)** and **Question 3(b)** of TTIC 31170 Problem Set 3. It includes the completed Python modules, the supplied data, reproducible experiment specifications, numerical outputs, figures, and analytic tests.
 
-Read **[report/PS3_Coding_Report.pdf](report/PS3_Coding_Report.pdf)** for the experiment results and discussion. The separate non-coding solutions cover Question 1 and Question 3(a); those derivations are outside this coding package. Complete the personal-accounting fields in **[AI_DISCLOSURE.txt](AI_DISCLOSURE.txt)** before submitting Question 4.
+Read **[report/PS3_Coding_Report.pdf](report/PS3_Coding_Report.pdf)** for the experiment results and discussion. The separate non-coding solutions cover Question 1 and Question 3(a); those derivations are outside this coding package.
 
 ## Setup
 
@@ -140,6 +140,6 @@ python3 reports/build_report.py
 
 Run the required experiments first if their outputs are absent. The report generator reads saved experiment outputs; the filter programs themselves do not require ReportLab or Pillow.
 
-## Attribution and personal accounting
+## Attribution
 
-The course-provided starter code and datasets are included with the completed implementation. ChatGPT assisted with the implementation, analytic tests, experiment execution, and report preparation. [AI_DISCLOSURE.txt](AI_DISCLOSURE.txt) provides a factual disclosure and blank fields for the user's actual collaborators and time spent. Those personal facts have not been inferred or filled in.
+The course-provided starter code and datasets are included with the completed implementation. ChatGPT assisted with the implementation, analytic tests, experiment execution, and report preparation.

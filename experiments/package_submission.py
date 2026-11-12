@@ -14,7 +14,7 @@ import zipfile
 ROOT = Path(__file__).resolve().parents[1]
 OUTPUT = ROOT.parent / "output" / "PS3_Coding_Submission.zip"
 REQUIRED = (
-    "README.md", "AI_DISCLOSURE.txt", "VALIDATION.md", "requirements.txt",
+    "README.md", "VALIDATION.md", "requirements.txt",
     "report/PS3_Coding_Report.pdf", "reports/build_report.py",
     "code/pf/PF.py", "code/pf/Laser.py", "code/pf/Gridmap.py",
     "code/pf/Visualization.py", "code/pf/RunPF.py",
